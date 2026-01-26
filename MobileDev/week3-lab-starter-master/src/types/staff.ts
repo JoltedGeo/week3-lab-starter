@@ -3,8 +3,8 @@ export type StaffId = string;
 import {School} from './common';
 
 // TODO: Create a type for staff roles, which can be "Instructor", "Program Chair", "Coordinator", or "Advisor"
-type StaffRoles = [
-    "Instructor", "Program Chair", "Coordinator", "Advisor"];
+type StaffRoles = 
+    "Instructor" | "Program Chair" | "Coordinator" | "Advisor";
 
 interface Specialties {
     english: Boolean;
