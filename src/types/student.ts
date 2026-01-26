@@ -16,4 +16,15 @@
 // an optional program id
 // an optional array of current course ids
 
-export interface Student {}
+type studentId = string;
+type studentStatus = ["Full-time", "Part-time"]
+
+export interface Student {
+    id : studentId;
+    name: string;
+    year: number;
+    status: studentStatus;
+    interest: [];
+    githubUserName?: string;
+    optionalNote?: string;
+}
