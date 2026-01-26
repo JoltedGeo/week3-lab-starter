@@ -1,5 +1,54 @@
 import type { Course } from "../types/course";
 
 export const courses: Course[] = [
-  // add courses here
+  {
+    id: "cprg303",
+    code: "CPRG 303",
+    title: "Mobile Application Development",
+    description: "Learn to develop mobile applications using React Native and TypeScript.",
+    credits: 3,
+    term: 2,
+    delivery: "In-person",
+    prerequisites: ["cprg202", "cprg101"],
+    note: "This course is required for the Software Development program.",
+  },
+  {
+    id: "cprg202",
+    code: "CPRG 202",
+    title: "Object-Oriented Programming",
+    description: "Master object-oriented programming principles and design patterns.",
+    credits: 3,
+    term: 1,
+    delivery: "Blended",
+    prerequisites: ["cprg101"],
+  },
+  {
+    id: "cprg101",
+    code: "CPRG 101",
+    title: "Introduction to Programming",
+    description: "Foundational programming concepts and fundamentals.",
+    credits: 4,
+    term: 1,
+    delivery: "In-person",
+  },
+  {
+    id: "cprg304",
+    code: "CPRG 304",
+    title: "Web Development",
+    description: "Build responsive web applications using modern frameworks.",
+    credits: 3,
+    term: 3,
+    delivery: "Online",
+    prerequisites: ["cprg202"],
+  },
+  {
+    id: "cprg305",
+    code: "CPRG 305",
+    title: "Database Design",
+    description: "Design and implement relational and non-relational databases.",
+    credits: 3,
+    term: 2,
+    delivery: "In-person",
+    prerequisites: ["cprg202"],
+  },
 ];
