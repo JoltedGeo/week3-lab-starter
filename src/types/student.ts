@@ -15,20 +15,5 @@
 // once all group members have completed their sections, add the following fields:
 // an optional program id
 // an optional array of current course ids
-export type StudentId = string;
 
-export type StudentStatus = "Full-time" | "Part-time";
-
-export interface Student {
-  id: StudentId;
-  name: string;
-  year: number;
-  status: StudentStatus;
-  interests: string[];
-
-  githubUsername?: string;
-  funFact?: string;
-
-  programId?: string;
-  currentCourseIds?: string[];
-}
+export interface Student {}
