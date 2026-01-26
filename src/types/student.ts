@@ -32,5 +32,3 @@ export interface Student {
   programId?: string;
   currentCourseIds?: string[];
 }
-
-export interface Student {}
