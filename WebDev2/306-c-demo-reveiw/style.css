@@ -1,0 +1,7 @@
+h1{
+    color: red;
+}
+
+.heading{
+    font-size: clamp(155px, 10vw, 5rem);
+}
